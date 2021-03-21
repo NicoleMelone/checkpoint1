@@ -12,6 +12,12 @@
     font-family: 'Play', sans-serif;
 }
 
+.shadow{
+    border: 1px solid;
+    padding: 1rem;
+    box-shadow: 3rem 3rem 2rem;
+}
+
 
 .top-border{
     border-left: 1rem solid blue;
@@ -65,7 +71,8 @@
         position: absolute;
         bottom: -1.5rem;
         justify-content: flex-end;
-        order: 2;
+        order: 3;
+        margin-right: 0;
 
     }
     .info-text{
